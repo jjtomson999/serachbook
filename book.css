@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  margin-top: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+
+}
+#slick{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide-items img{
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+.slide-items img:hover{
+  opacity: 0.8;
+}
+.slide-items .book-subtitle{
+  font-size: 0.75rem;
+  
+}
+.show_books{
+  padding-left: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.shadow{
+opacity: 0.6;
+background-color:#9ccf;
+margin-left: 4px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background:#bbb;
+  text-align: center;
+}
+footer p{
+  line-height: 100px;
+}
